@@ -1,0 +1,35 @@
+body {
+	background-color: white;
+
+}
+
+p, ul {
+	font-family: 'Dosis', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Sansita One', cursive;
+}
+#wrapper {
+	max-width: 700px;
+	margin: 0 auto;
+}
+#nav {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	padding: 10px;
+	border: solid;
+	background-color: yellow;
+}
+#content img {
+	border: solid;
+}
+blockquote {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 500px;
+	margin-right: 40px;
+	border: double;
+}
