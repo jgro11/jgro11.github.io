@@ -1,0 +1,25 @@
+/* grid */
+
+* { box-sizing: border-box; }
+
+.grid-item { 
+  border: solid;
+  border-radius: 30px 2px 30% 3px / 4px 10px 3px 30px;
+  background-color: lightblue;
+  margin-bottom: 10px;
+  padding: 18px 15px;
+}
+
+.grid-item--width2 { 
+  background-color: yellow;
+  width: 250px;
+}
+
+.grid-item--height2 {
+  background-color: orange;
+  height: 120px;
+}
+
+.grid-item--height2.grid-item--width2 {
+  background-color: firebrick;
+}
